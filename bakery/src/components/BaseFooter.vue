@@ -1,0 +1,32 @@
+<template>
+  <section class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <a class="footer__link" href="tel:+74959275387">+7 (495) 927-53-87</a>
+        <a class="footer__link" href="mailto:partners@dessertparadise.ru"
+          >partners@dessertparadise.ruu</a
+        >
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup lang="js"></script>
+
+<style scoped lang="scss">
+.footer {
+  padding: 35px 0;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+</style>
